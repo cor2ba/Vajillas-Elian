@@ -1,0 +1,9 @@
+.Contenedor {
+    min-height: 80vh;
+    background-image: url("../../imagenes/vajilla.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    display: flex;
+    flex-direction: column;
+  }

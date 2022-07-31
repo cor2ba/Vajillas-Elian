@@ -1,0 +1,37 @@
+.Container {
+    min-height: 30vh;
+    background-color: rgb(79, 0, 0);
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.Titulo {
+    font-size: 30px;
+    color: rgb(221, 192, 0);
+}
+
+.Subtitulos {
+    font-size: 20px;
+    color: #fff;
+}
+
+.Imagen {
+    height: 60px;
+    width: 60px;
+}
+
+.Sección {
+    display: flex;
+    flex-direction: column;
+    height: 150px;
+}
+
+.LogoYnombre {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}

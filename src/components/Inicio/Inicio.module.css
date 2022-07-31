@@ -1,0 +1,46 @@
+.Contenedor {
+  min-height: 80vh;
+  background-image: url("../../imagenes/vajilla.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+  display: flex;
+  flex-direction: column;
+}
+
+.Textos {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  color: #fff;
+  width: 100%;
+  min-height: 70vh;
+}
+
+.TextoAlquiler {
+  font-size: 40px;
+  color: #fff;
+  text-decoration: overline;
+}
+
+.TextoSlogan {
+  font-size: 25px;
+  color: rgb(221, 192, 0);
+  text-decoration: overline;
+}
+
+.Contenedor2 {
+  min-height: 80vh;
+  background-color: rgba(0, 0, 0, 0.267);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.TextoMain {
+  font-size: 45px;
+  color: #fff;
+  text-decoration: underline;
+}

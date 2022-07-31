@@ -1,0 +1,58 @@
+.Contenedor {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  min-height: 10vh;
+  max-height: 10vh;
+  background-color: rgba(0, 0, 0, 0.267);
+  box-shadow: 0 0 10px rgb(221, 192, 0);
+}
+
+.ContenedorDeMarca {
+  display: flex;
+  flex-direction: row;
+}
+
+.Logo {
+  font-size: 50px;
+  color: rgb(221, 192, 0);
+  align-self: center;
+  margin: 0px 20px;
+  border-radius: 20%;
+  padding: 0px;
+  text-decoration: underline;
+}
+
+.TextoElian {
+  font-size: 30px;
+  align-self: center;
+  color: #fff;
+}
+
+.ContenedorDeLinks {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-decoration: none;
+  text-decoration: none;
+}
+
+.Link {
+  text-decoration: none;
+}
+
+.Link {
+  padding: 0px 20px;
+  font-size: 20px;
+  align-self: center;
+  color: #fff;
+  cursor: pointer;
+}
+
+.LinkColor {
+  padding: 0px 20px;
+  font-size: 22px;
+  align-self: center;
+  color: rgb(255, 200, 61);
+  cursor: pointer;
+}
