@@ -17,9 +17,7 @@ const Inicio = () => {
           </h2>
         </div>
       </div>
-      <div className={Estilos.Contenedor2}>
-        <Vajillas />
-      </div>
+      <Vajillas />
       <Pie />
     </div>
   );

@@ -30,15 +30,6 @@
   text-decoration: overline;
 }
 
-.Contenedor2 {
-  min-height: 80vh;
-  background-color: rgba(0, 0, 0, 0.267);
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-around;
-}
-
 .TextoMain {
   font-size: 45px;
   color: #fff;

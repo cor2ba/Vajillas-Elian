@@ -34,25 +34,58 @@
   flex-direction: row;
   align-items: center;
   text-decoration: none;
-  text-decoration: none;
 }
 
-.Link {
+.No {
   text-decoration: none;
 }
 
 .Link {
   padding: 0px 20px;
+  text-decoration: none;
   font-size: 20px;
   align-self: center;
   color: #fff;
   cursor: pointer;
+  --clippy: polygon(0 0, 0 0, 0 100%, 0% 100%);
+}
+
+.Link::after {
+  content: "";
+  display: block;
+  background-color: #fff;
+  width: 100%;
+  margin-top: 1px;
+  height: 3px;
+  clip-path: var(--clippy);
+  transition: clip-path 0.5s;
+}
+
+.Link:hover {
+  --clippy: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
 }
 
 .LinkColor {
   padding: 0px 20px;
-  font-size: 22px;
+  text-decoration: none;
+  font-size: 20px;
   align-self: center;
   color: rgb(255, 200, 61);
   cursor: pointer;
+  --clippy: polygon(0 0, 0 0, 0 100%, 0% 100%);
+}
+
+.LinkColor::after {
+  content: "";
+  display: block;
+  background-color: rgb(255, 200, 61);
+  width: 100%;
+  margin-top: 1px;
+  height: 3px;
+  clip-path: var(--clippy);
+  transition: clip-path 0.5s;
+}
+
+.LinkColor:hover {
+  --clippy: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
 }

@@ -1,12 +1,22 @@
-.Container {
+.ContainerPrincipal {
     min-height: 30vh;
-    background-color: rgb(79, 0, 0);
+    background-color: rgb(80, 0, 0);
     margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.Container {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     flex-wrap: wrap;
     align-items: center;
+}
+
+.Container2 {
+    align-self: center;
 }
 
 .Titulo {
@@ -16,7 +26,12 @@
 
 .Subtitulos {
     font-size: 20px;
-    color: #fff;
+    color: #fff; 
+}
+
+.Subtitulos2 {
+    font-size: 20px;
+    color: #939393; 
 }
 
 .Imagen {
