@@ -1,3 +1,7 @@
+.ContainerResponsive {
+  display: none;
+}
+
 .Contenedor {
   display: flex;
   flex-direction: row;
@@ -88,4 +92,64 @@
 
 .LinkColor:hover {
   --clippy: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+}
+
+@media (max-width: 800px) {
+  .Contenedor {
+    display: none;
+  }
+
+  .ContainerResponsive {
+    display: flex;
+    min-height: 10vh;
+    background-color: rgba(0, 0, 0, 0.267);
+    box-shadow: 0 0 10px rgb(221, 192, 0);
+  }
+
+  .Menu {
+    position: fixed;
+    top: 0px;
+    bottom: 0;
+    background-color: #0a000e;
+    width: 100%;
+    left: 0;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    clip-path: circle(0 at center);
+    z-index: 1;
+    transition: clip-path 1s ease-in-out;
+  }
+
+  .MenuImg {
+    position: absolute;
+    right: 0;
+    margin: 5px 5px 0px 0px;
+    z-index: 2;
+  }
+
+  .Img {
+    width: 40px;
+    height: 40px;
+    background-color: rgb(221, 192, 0);
+    padding: 5px;
+    border-radius: 50px;
+    margin: 20px;
+  }
+
+  .NavInput {
+    display: none;
+  }
+
+  .NavInput:checked + .Menu {
+    clip-path: circle(100% at center);
+  }
+
+  .NavsResponsive {
+    font-size: 25px;
+    text-decoration: none;
+    color: #fff;
+  }
 }
