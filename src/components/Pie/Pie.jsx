@@ -27,7 +27,7 @@ const Pie = () => {
             <h1 className={Estilos.Titulo}>DONDE ESTAMOS</h1>
           </div>
           <div>
-            <h1 className={Estilos.Subtitulos}>Calle 519 n°2447</h1>
+            <h1 className={Estilos.Subtitulos}>Calle 519 N°2447</h1>
             <h1 className={Estilos.Subtitulos}>
               Gobernador Costa, Florencio Varela.
             </h1>
