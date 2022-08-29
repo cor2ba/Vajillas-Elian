@@ -24,7 +24,7 @@ const Pie = () => {
         </div>
         <div className={Estilos.Sección}>
           <div>
-            <h1 className={Estilos.Titulo}>DONDE ESTAMOS</h1>
+            <h1 className={Estilos.Titulo}>¿DÓNDE ESTAMOS?</h1>
           </div>
           <div>
             <h1 className={Estilos.Subtitulos}>Calle 519 N°2447</h1>
