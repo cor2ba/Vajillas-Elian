@@ -26,7 +26,7 @@ const Pie = () => {
           <div>
             <h1 className={Estilos.Titulo}>¿DÓNDE ESTAMOS?</h1>
           </div>
-          <div>
+          <div className={Estilos.Alinear}>
             <h1 className={Estilos.Subtitulos}>Calle 519 N°2447</h1>
             <h1 className={Estilos.Subtitulos}>
               Gobernador Costa, Florencio Varela.
@@ -35,7 +35,7 @@ const Pie = () => {
         </div>
         <div className={Estilos.Sección}>
           <div>
-            <h1 className={Estilos.Titulo}>TELEFONOS</h1>
+            <h1 className={Estilos.Titulo}>WHATSAPP</h1>
           </div>
           <div>
             <h1 className={Estilos.Subtitulos}>+54 9 11 3833-2820</h1>
@@ -46,7 +46,7 @@ const Pie = () => {
           <div>
             <h1 className={Estilos.Titulo}>HORARIO DE ATENCIÓN</h1>
           </div>
-          <div>
+          <div className={Estilos.Alinear}>
             <h1 className={Estilos.Subtitulos}>
               Lunes a Viernes 15:00hs a 20:00hs
             </h1>
@@ -54,7 +54,7 @@ const Pie = () => {
           </div>
         </div>
       </div>
-      <div className={Estilos.Container2}>
+      <div className={Estilos.Container2}> 
         <h1 className={Estilos.Subtitulos2}>
           © 2022. Vajillas Elian, Todos los derechos reservados.
         </h1>

@@ -18,6 +18,8 @@
 
 .Container2 {
   align-self: center;
+  align-items: center;
+  text-align: center;
 }
 
 .Titulo {
@@ -50,4 +52,9 @@
   display: flex;
   flex-direction: row;
   align-items: center;
+}
+
+.Alinear {
+  align-items: center;
+  text-align: center;
 }
