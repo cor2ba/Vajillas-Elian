@@ -1,9 +1,54 @@
 .Contenedor {
-    min-height: 80vh;
-    background-image: url("../../imagenes/vajilla.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: bottom;
-    display: flex;
-    flex-direction: column;
-  }
+  min-height: 100vh;
+  background-image: url("../../imagenes/vajilla.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+  display: flex;
+  flex-direction: column;
+}
+
+.ContenedorDeSecciones {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-items: center;
+  min-height: 90vh;
+}
+
+.Sección {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 45vw;
+  padding: 30px;
+  justify-content: space-evenly;
+  gap: 30px;
+  align-items: center;
+  text-align: center;
+  border: 1px solid gold;
+}
+
+.Contactar {
+  display: flex;
+  flex-direction: column;
+}
+
+.Titulo {
+  font-size: 35px;
+  color: gold;
+}
+
+.Subtitulo {
+  font-size: 25px;
+  color: #fff;
+}
+
+.Boton {
+  color: gold;
+  border: 1px solid gold;
+  width: 200px;
+  background: transparent;
+  height: 50px;
+}

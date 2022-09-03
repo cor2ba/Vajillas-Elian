@@ -1,6 +1,5 @@
 import React from "react";
 import Estilos from "./Pie.module.css";
-import img from "../../imagenes/e2.png";
 import InstagramIcon from "@mui/icons-material/Instagram";
 import FacebookIcon from "@mui/icons-material/Facebook";
 
@@ -9,11 +8,8 @@ const Pie = () => {
     <div className={Estilos.ContainerPrincipal}>
       <div className={Estilos.Container}>
         <div className={Estilos.Sección}>
-          <div className={Estilos.LogoYnombre}>
-            <img className={Estilos.Imagen} src={img} alt="Elian"></img>
-            <h1 className={Estilos.Titulo}>ELIAN</h1>
-          </div>
-          <div>
+            <h1 className={Estilos.Titulo}>REDES SOCIALES</h1>
+          <div style={{display: "flex", justifyContent: "center"}}>
             <InstagramIcon
               style={{ color: "#fff", width: 50, height: 100 }}
             ></InstagramIcon>

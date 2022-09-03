@@ -1,5 +1,5 @@
 .Contenedor {
-    min-height: 80vh;
+  min-height: 100vh;
     background-image: url("../../imagenes/vajilla.jpg");
     background-repeat: no-repeat;
     background-size: cover;

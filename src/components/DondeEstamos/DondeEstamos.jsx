@@ -4,7 +4,7 @@ import Navegador from "../Navegador/Navegador";
 
 const DondeEstamos = () => {
     return(
-        <div className={Estilos.Container}>
+        <div className={Estilos.Contenedor}>
             <Navegador color="dondeestamos"></Navegador>
         </div>
     )

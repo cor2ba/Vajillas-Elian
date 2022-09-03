@@ -1,15 +1,14 @@
 import React from "react";
 import Navegador from "../Navegador/Navegador";
-import Vajillas from "../Vajillas.jsx/Vajillas";
 import Estilos from "./Inicio.module.css";
 import Pie from "../Pie/Pie";
 
 const Inicio = () => {
-  const color = "inicio"
+  const color = "inicio";
   return (
     <div>
       <div className={Estilos.Contenedor}>
-        <Navegador color={color}/>
+        <Navegador color={color} />
         <div className={Estilos.Textos}>
           <h1 className={Estilos.TextoAlquiler}>ALQUILES DE VAJILLAS</h1>
           <h2 className={Estilos.TextoSlogan}>
@@ -17,7 +16,6 @@ const Inicio = () => {
           </h2>
         </div>
       </div>
-      <Vajillas />
       <Pie />
     </div>
   );

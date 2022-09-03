@@ -41,7 +41,7 @@ const Vajillas = () => {
       <div className={Estilos.Vajilla}>
         <img className={Estilos.Imagen} src={Cubiertos} alt="Cubiertos"></img>
         <div className={Estilos.ContenedorInvisible}>
-          <h1>Cubiertos, hieleras y canastas</h1>
+          <h1>Vajillas, hieleras y canastas</h1>
           <p>
             Tenedor, cuchillo, cuchara, hielera grande o chica y canastas de
             pan.
