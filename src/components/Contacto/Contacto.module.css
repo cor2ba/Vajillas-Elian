@@ -15,19 +15,21 @@
   flex-wrap: wrap;
   align-items: center;
   min-height: 90vh;
+  gap: 20px;
 }
 
 .Sección {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  width: 45vw;
+  width: 40vw;
   padding: 30px;
   justify-content: space-evenly;
   gap: 30px;
   align-items: center;
   text-align: center;
   border: 1px solid gold;
+  border-radius: 20px;
 }
 
 .Contactar {
@@ -38,6 +40,7 @@
 .Titulo {
   font-size: 35px;
   color: gold;
+  text-decoration: underline;
 }
 
 .Subtitulo {
@@ -46,9 +49,23 @@
 }
 
 .Boton {
+  display: flex;
+  justify-content: center;
   color: gold;
   border: 1px solid gold;
   width: 200px;
   background: transparent;
   height: 50px;
+  cursor: pointer;
+  align-items: center;
+  text-decoration: none;
+}
+
+@media (max-width: 1623px) {
+  .ContenedorDeSecciones {
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
 }

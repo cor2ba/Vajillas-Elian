@@ -1,7 +1,6 @@
 import React from "react";
 import Navegador from "../Navegador/Navegador";
 import Estilos from "./Inicio.module.css";
-import Pie from "../Pie/Pie";
 
 const Inicio = () => {
   const color = "inicio";
@@ -16,7 +15,6 @@ const Inicio = () => {
           </h2>
         </div>
       </div>
-      <Pie />
     </div>
   );
 };
