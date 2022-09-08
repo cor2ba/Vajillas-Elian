@@ -29,6 +29,7 @@
   align-items: center;
   text-align: center;
   border: 1px solid gold;
+  background-color: rgba(0, 0, 0, 0.267);
   border-radius: 20px;
 }
 

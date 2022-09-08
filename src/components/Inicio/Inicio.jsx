@@ -11,7 +11,7 @@ const Inicio = () => {
         <div className={Estilos.Textos}>
           <h1 className={Estilos.TextoAlquiler}>ALQUILES DE VAJILLAS</h1>
           <h2 className={Estilos.TextoSlogan}>
-            5 años haciendo felíz a nuestros clientes.
+            Tus eventos con la mejor calidad.
           </h2>
         </div>
       </div>

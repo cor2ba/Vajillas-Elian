@@ -19,15 +19,17 @@
 }
 
 .TextoAlquiler {
-  font-size: 40px;
+  font-size: 50px;
   color: #fff;
   text-decoration: overline;
+  text-shadow: 3px 3px 3px gold;
 }
 
 .TextoSlogan {
-  font-size: 25px;
+  font-size: 35px;
   color: rgb(221, 192, 0);
   text-decoration: overline;
+  text-shadow: 3px 3px 3px #fff;
 }
 
 .TextoMain {

@@ -22,7 +22,7 @@ const Contactos = () => {
             href="https://api.whatsapp.com/send/?phone=5491138332820&text&type=phone_number&app_absent=0"
             className={Estilo.Boton}
           >
-            ENVIAR MENSAJE
+            ¡ENVIAR MENSAJE!
           </a>
         </div>
         <div className={Estilo.Sección}>
@@ -38,10 +38,10 @@ const Contactos = () => {
             href="https://api.whatsapp.com/send/?phone=5491166669410&text&type=phone_number&app_absent=0"
             className={Estilo.Boton}
           >
-            ENVIAR MENSAJE
+            ¡ENVIAR MENSAJE!
           </a>
         </div>
-        <div className={Estilo.Sección}>
+        {/* <div className={Estilo.Sección}>
           <Instagram
             style={{ color: "orange", width: 200, height: 200 }}
           ></Instagram>
@@ -56,7 +56,7 @@ const Contactos = () => {
           >
             ENVIAR MENSAJE
           </a>
-        </div>
+        </div> */}
       </div>
     </div>
   );
